@@ -8,7 +8,7 @@ def main():
     prev = int(input("Enter a number"))
     while True:
         num = int(input("Enter a number:"))
-        if num < prev:
+        if num > prev:
             break
         else:
             continue
