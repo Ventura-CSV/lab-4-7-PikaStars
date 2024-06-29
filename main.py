@@ -7,6 +7,7 @@ def main():
     """
     prev = int(input("Enter a number:"))
     while True:
+        numbers.append(prev)
         num = int(input("Enter a number:"))
         if num > prev:
             break
